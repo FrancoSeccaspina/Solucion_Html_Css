@@ -5,6 +5,7 @@
 body{ 
     background-color:hsl(212, 45%, 89%);
     margin: 8%;
+    margin-top: 25%;
 }
 
 .Contenedor {
@@ -41,8 +42,8 @@ img {
     justify-content: center;
     text-align: center;
     font-weight:700;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .primerContenedor #oscuro{
@@ -65,6 +66,11 @@ img {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width:1440px) {
+
+    body {
+        background-color: hsl(212, 45%, 89%);
+        margin: 8%;
+    }
 
     .Contenedor {
         width: 50%;
